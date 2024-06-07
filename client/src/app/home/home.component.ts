@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { PaginatorModule } from 'primeng/paginator';
 import { ProductsService } from '../services/products.service';
 import { Product, Products } from '../../types';
-import { ProductComponent } from '../componnets/product/product.component';
+import { ProductComponent } from '../components/product/product.component';
 
 @Component({
   selector: 'app-home',
