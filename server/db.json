@@ -9,8 +9,8 @@
     },
     {
       "id": 2,
-      "name": "Branded Shoes",
       "image": "assets/images/products/image2.jpg",
+      "name": "Branded Shoes",
       "price": "13.5",
       "rating": 4
     },
