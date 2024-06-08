@@ -26,7 +26,7 @@ export class HomeComponent {
   @ViewChild('paginator') paginator: Paginator | undefined;
   products: Product[] = [];
   totalRecords: number = 0;
-  rows: number = 5;
+  rows: number = 6;
   displayAddPopup: boolean = false;
   displayEditPopup: boolean = false;
   selectedProduct: Product = {
