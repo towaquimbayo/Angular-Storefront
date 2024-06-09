@@ -35,6 +35,11 @@ app-root {
   flex-direction: column;
 }
 
+input {
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
 .row {
   display: flex;
   flex-direction: row;
