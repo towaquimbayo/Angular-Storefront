@@ -1,28 +1,33 @@
 .wrapper {
   width: 100%;
   border-bottom: 1px solid var(--border-color);
-  padding: 2rem 5rem;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
 
-  a {
-    font-weight: 300;
-    text-decoration: none;
-    color: black;
+  nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 5rem;
 
-    &.active {
-      font-weight: 700;
-      color: var(--primary-500);
+    a {
+      font-weight: 300;
+      text-decoration: none;
+      color: black;
+
+      &.active {
+        font-weight: 700;
+        color: var(--primary-500);
+      }
     }
-  }
 
-  .logo {
-    height: 100%;
-    max-height: 2rem;
-    object-fit: contain;
-    margin-right: auto;
+    .logo {
+      height: 100%;
+      max-height: 2rem;
+      object-fit: contain;
+      margin-right: auto;
+    }
   }
 }
